@@ -64,21 +64,19 @@ You can install the dependencies using pip:
 
 The model achieves an overall accuracy of **59%** on the test set. Here's a detailed classification report:
 
-          precision    recall  f1-score   support
-
-   angry       0.89      0.63      0.74        79
-    calm       0.53      0.84      0.65        77
- disgust       0.65      0.55      0.59        73
-    fear       0.63      0.60      0.62        73
-   happy       0.56      0.45      0.50        78
- neutral       0.00      0.00      0.00        44
-     sad       0.44      0.62      0.51        73
-surprise       0.60      0.75      0.67        79
-
-accuracy                           0.59       576
-
-
-macro avg 0.54 0.55 0.53 576 weighted avg 0.57 0.59 0.57 576
+| Emotion   | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| angry     | 0.89      | 0.63   | 0.74     | 79      |
+| calm      | 0.53      | 0.84   | 0.65     | 77      |
+| disgust   | 0.65      | 0.55   | 0.59     | 73      |
+| fear      | 0.63      | 0.60   | 0.62     | 73      |
+| happy     | 0.56      | 0.45   | 0.50     | 78      |
+| neutral   | 0.00      | 0.00   | 0.00     | 44      |
+| sad       | 0.44      | 0.62   | 0.51     | 73      |
+| surprise  | 0.60      | 0.75   | 0.67     | 79      |
+| **accuracy** |         |        | 0.59     | 576     |
+| **macro avg** | 0.54   | 0.55   | 0.53     | 576     |
+| **weighted avg** | 0.57 | 0.59   | 0.57     | 576     |
 
  
 **Observations:**
